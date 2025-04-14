@@ -1,4 +1,4 @@
-# https://github.com/samigrace111/lab10-XX-XX
+# https://github.com/samigrace111/lab10-SS
 # Partner 1: Samantha Sobrino
 # Partner 2:
 
