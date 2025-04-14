@@ -15,18 +15,3 @@ def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
-
-
-
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
-# First example
-def add(a, b): 
-    pass
-
-
-Added header info to calculator.py
