@@ -19,19 +19,18 @@ def divide(a, b):
     return a / b
 
 def mul(a, b):
-    """ Same logic as multiply """
+    """Same logic as multiply"""
     return a * b
 
 def div(a, b):
-    """ Same logic as divide """
+    """Same logic as divide"""
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
 
 def logarithm(x, base):
-    """ 
-    Basic log function. 
-    Raises ValueError if x <= 0 or base <= 0 or base == 1.
+    """
+    Raises ValueError if x <= 0, base <= 0, or base == 1.
     """
     if x <= 0 or base <= 0 or base == 1:
         raise ValueError("Invalid domain for logarithm")
@@ -42,11 +41,11 @@ def exp(base, exponent):
     return base ** exponent
 
 def hypotenuse(a, b):
-    """ Returns the length of the hypotenuse given sides a and b. """
-    return math.sqrt(a**2 + b**2)
+    """ Returns the length of the hypotenuse for legs a and b. """
+    return math.sqrt(a*a + b*b)
 
 def square_root(x):
-    """ Returns the square root of x. Raises ValueError if x < 0. """
+    """ Returns the square root of x, raises ValueError if x < 0. """
     if x < 0:
         raise ValueError("Cannot take square root of a negative number")
     return math.sqrt(x)
